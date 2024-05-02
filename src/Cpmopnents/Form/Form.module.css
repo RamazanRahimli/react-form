@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: rgb(111, 2222, 3333 , 0.8);
+}
+/* .container entry  */
+.container {
+    width: 38%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 13px;
+}
+.container h1 {
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.formBox {
+    height: 400px;
+    width: 90%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    gap: 5px;
+}
+/* .formbox fulname star tag */
+.formBox .tag {
+    display:flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.tag h3 {
+    font-weight: 400;
+    color: white;
+}
+.tag p {
+    font-size: 10px;
+    margin-top: 2px;
+    color: red;
+    cursor: pointer;
+}
+
+/* .formBox nameBox  entry*/
+.nameBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nameBox .nameTag input {
+    padding: 8px 30px;
+    border-radius: 14px;
+    border: 1px solid white;
+}
+.nameBox .nameTag p {
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.nameBox {
+    margin-top: 3px;
+}
+/* .formBox namebox email  */
+.formBox .mailTag {
+    display:flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.mailTag h3 {
+    font-weight: 400;
+    color: white;
+}
+.mailTag p {
+    font-size: 10px;
+    margin-top: 2px;
+    color: red;
+    cursor: pointer;
+}
+
+.formBox .mailBox input {
+    width: 100%;
+    padding: 8px 30px;
+    border-radius: 14px;
+    border: 1px solid white;
+}
+.mailBox {
+    margin-top: 3px;
+}
+/* .commentTag  */
+.formBox .commentTag {
+    display:flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.commentTag h4 {
+    font-weight: 400;
+    color: white;
+}
+.commentTag p {
+    font-size: 10px;
+    margin-top: 2px;
+    color: red;
+    cursor: pointer;
+}
+
+.commentBox {
+    margin-top: 3px;
+}
+/* commentBox */
+.formBox .commentBox textarea {
+    width: 100%;
+    border-radius: 25px;
+    padding: 0 15px;
+    height: 90px;
+}
+
+/* button tag  */
+.formBox button {
+    width: 30%;
+    padding: 10px 0;
+    border-radius:25px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid red;
+    cursor: pointer;
+    align-self: center;
+}
